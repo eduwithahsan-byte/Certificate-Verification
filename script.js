@@ -3,10 +3,10 @@ const certificates = [
 {
     id: "2026-001",
     name: "Muhammad Hasnain",
-    course: "HTML & CSS",
+    course: "Computer Basics",
     issueDate: "05 August 2026",
     status: "Verified",
-    image: "images/OIP.jpg"
+    image: "images/Sara.jpg"
 },
 
 {
@@ -43,8 +43,31 @@ const certificates = [
     issueDate: "25 August 2026",
     status: "Verified",
     image: "images/fatima.jpg"
-}
-
+},
+{
+    id: "2026-006",
+    name: "Fatima Noor",
+    course: "Microsoft Excel",
+    issueDate: "25 August 2026",
+    status: "Verified",
+    image: "images/fatima.jpg"
+},
+{
+    id: "2026-007",
+    name: "Fatima Noor",
+    course: "Microsoft Excel",
+    issueDate: "25 August 2026",
+    status: "Verified",
+    image: "images/fatima.jpg"
+},
+{
+    id: "2026-008",
+    name: "Ahmad Abdullah",
+    course: "Microsoft Excel",
+    issueDate: "25 August 2026",
+    status: "Verified",
+    image: "images/fatima.jpg"
+},
 ];
 
 function verifyCertificate(){
