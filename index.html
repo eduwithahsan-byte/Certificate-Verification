@@ -2,31 +2,297 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate Verification</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#061B4F"
+    >
+
+    <title>
+        Certificate Verification | Helpline Welfare Trust
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,900&family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1 class="instiute-name">Helpline Welfare Trust Muhammad Yousaf Butt Vocational Training Center <br> <span>(Abid Town Rana Town)</span></h1>
-    <h1 class="verify-text">Certificate Verification</h1>
+    <!-- =========================================
+         ANIMATED BACKGROUND
+    ========================================== -->
 
-    <input
-        type="text"
-        id="certificateInput"
-        placeholder="Enter Certificate ID">
+    <div class="background-effects">
 
-    <button onclick="verifyCertificate()">
-        Verify Certificate
-    </button>
+        <span class="glow glow-one"></span>
+        <span class="glow glow-two"></span>
+        <span class="glow glow-three"></span>
 
-    <div id="result"></div>
+    </div>
 
-</div>
 
-<script src="script.js"></script>
+    <!-- =========================================
+         MAIN CONTAINER
+    ========================================== -->
+
+    <main class="page">
+
+        <section class="verification-system">
+
+
+            <!-- =====================================
+                 HEADER
+            ====================================== -->
+
+            <header class="institution-header">
+
+
+                <!-- LEFT LOGO -->
+
+                <div class="logo-box left-logo">
+
+                    <img
+                        src="images/logo_1.jpeg"
+                        alt="Institution Logo"
+                    >
+
+                </div>
+
+
+                <!-- INSTITUTION NAME -->
+
+                <div class="institution-name">
+
+                    <div class="small-label">
+                        OFFICIAL INSTITUTION
+                    </div>
+
+                    <h1>
+                        HELPLINE WELFARE TRUST
+                    </h1>
+
+                    <h2>
+                        MOHAMMAD YOUSUF BUTT
+                    </h2>
+
+                    <h3>
+                        VOCATIONAL TRAINING CENTRE
+                    </h3>
+
+
+                    <div class="location">
+
+                        <span></span>
+
+                        <strong>
+                            ABID TOWN
+                        </strong>
+
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT LOGO -->
+
+                <div class="logo-box right-logo">
+
+                    <img
+                        src="images/logo_1.jpeg"
+                        alt="Institution Logo"
+                    >
+
+                </div>
+
+            </header>
+
+
+
+            <!-- =====================================
+                 HERO
+            ====================================== -->
+
+            <section class="hero">
+
+                <div class="hero-tag">
+                    <span class="pulse-dot"></span>
+                    OFFICIAL CERTIFICATE PORTAL
+                </div>
+
+
+                <h2>
+                    Certificate
+                    <span>Verification</span>
+                </h2>
+
+
+                <p>
+                    Verify the authenticity of a certificate
+                    using its unique certificate ID.
+                </p>
+
+            </section>
+
+
+
+            <!-- =====================================
+                 VERIFICATION BOX
+            ====================================== -->
+
+            <section class="verification-box">
+
+
+                <div class="input-heading">
+
+                    <div class="heading-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Verify Certificate
+                        </strong>
+
+                        <small>
+                            Enter the certificate ID below
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <form id="verifyForm">
+
+
+                    <label for="certificateId">
+                        Certificate ID
+                    </label>
+
+
+                    <div class="input-area">
+
+
+                        <div class="input-container">
+
+                            <span class="search-symbol">
+                                #
+                            </span>
+
+                            <input
+                                id="certificateId"
+                                type="text"
+                                placeholder="e.g. HWT-2026-001"
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+
+                        <button
+                            id="verifyButton"
+                            type="submit"
+                        >
+
+                            <span class="verify-icon">
+                                ✓
+                            </span>
+
+                            VERIFY
+
+                        </button>
+
+                    </div>
+
+
+                    <div
+                        id="message"
+                        class="message"
+                    ></div>
+
+
+                </form>
+
+            </section>
+
+
+
+            <!-- =====================================
+                 RESULT
+            ====================================== -->
+
+            <section
+                id="result"
+                class="result-container"
+            >
+
+                <!-- Initial State -->
+
+                <div class="welcome-card">
+
+                    <div class="welcome-icon">
+                        <span>✓</span>
+                    </div>
+
+                    <h3>
+                        Ready to Verify
+                    </h3>
+
+                    <p>
+                        Enter a certificate ID above to
+                        retrieve the official certificate record.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =====================================
+                 FOOTER
+            ====================================== -->
+
+            <footer class="footer">
+
+                <div class="footer-line"></div>
+
+                <div class="footer-content">
+
+                    <span>
+                    
+                    </span>
+
+                    <span class="footer-status">
+            
+                    </span>
+
+                </div>
+
+            </footer>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
