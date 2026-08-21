@@ -12,7 +12,7 @@ const certificates = {
 
         issueDate: "05 August 2026",
 
-        photo: "images/personal.png",
+        photo: "personal.png",
 
         status: "Verified"
 
@@ -27,7 +27,7 @@ const certificates = {
 
         issueDate: "06 August 2026",
 
-        photo: "images/student-002.jpg",
+        photo: "student-002.jpg",
 
         status: "Verified"
 
